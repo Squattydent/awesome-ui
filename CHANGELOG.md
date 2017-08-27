@@ -3,7 +3,7 @@
 ---
 ### 1.0.1 (August 28, 2017)
 
-* Add Glyphicons for default web icons
+* Add Glyphicons-UI
 * Add Button-UI
 * Add Typography-UI
 * Add Link-UI
