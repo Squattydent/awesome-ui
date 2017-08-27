@@ -1,0 +1,342 @@
+/*!
+ * # Awesome UI 1.0.0 - typography-ui
+ * https://github.com/kidigo/awesome-ui
+ *    _                                                          _____
+ *   /_\__      _____  ___  ___  _ __ ___   ___           /\ /\  \_   \
+ *  //_\\ \ /\ / / _ \/ __|/ _ \| '_ ` _ \ / _ \  _____  / / \ \  / /\/
+ * /  _  \ V  V /  __/\__ \ (_) | | | | | |  __/ |_____| \ \_/ /\/ /_
+ * \_/ \_/\_/\_/ \___||___/\___/|_| |_| |_|\___|          \___/\____/
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
+        typography-ui
+*******************************/
+.text-center{
+  text-align: center;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+/*** text decoration ***/
+.text-underline{
+	text-decoration: underline;
+}
+
+.text-overline{
+	text-decoration: overline;
+}
+
+.text-bold{
+	font-weight: bold;
+}
+
+/*** text style ***/
+.text-italic{
+	font-style: italic;
+}
+
+.text-oblique{
+	font-style: oblique;
+}
+
+.text-block{
+  display: inline-block;
+  margin-bottom: 10px;
+  background-color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
+}
+
+/*** text color ***/
+.text-default{
+  color: #376981;
+}
+
+.text-primary{
+  color: #03a9f4;
+}
+
+.text-success{
+  color: #009688;
+}
+
+.text-info{
+  color: #9c27b0;
+}
+
+.text-warning{
+  color: #ff5722;
+}
+
+.text-danger{
+  color: #e91e63;
+}
+
+/*** text global ***/
+pre,
+code{
+	display: block;
+	font: normal 14px/22px monaco,Consolas,Lucida Console,monospace;
+  background-color: #eeeeee;
+  overflow: auto;
+  line-height: 1.4em;
+  border-radius: 2px;
+  padding: 1rem;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+p,
+.p {
+	padding: 0;
+  margin: 0em 0em 1em;
+	color: rgba(0,0,0,0.71);
+  line-height: 1.4285em;
+	-webkit-font-smoothing: antialiased;
+}
+
+p:first-child {
+  margin-top: 0em;
+}
+
+p:last-child {
+  margin-bottom: 0em;
+}
+
+b,
+strong{
+	font-weight: bold;
+}
+
+/*** blockquote ***/
+blockquote {
+  padding: 11.5px 23px;
+  margin: 0 0 23px;
+  font-size: 16.25px;
+  border-left: 5px solid #0190cf;
+}
+
+blockquote p:last-child,
+blockquote ul:last-child,
+blockquote ol:last-child {
+  margin-bottom: 0;
+}
+
+blockquote footer,
+blockquote small,
+blockquote .small {
+  display: block;
+  font-size: 80%;
+  line-height: 1.846;
+  color: #bbbbbb;
+}
+
+blockquote footer:before,
+blockquote small:before,
+blockquote .small:before {
+  content: '\2014 \00A0';
+}
+
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid #0190cf;
+  border-left: 0;
+  text-align: right;
+}
+
+.blockquote-reverse footer:before,
+blockquote.pull-right footer:before,
+.blockquote-reverse small:before,
+blockquote.pull-right small:before,
+.blockquote-reverse .small:before,
+blockquote.pull-right .small:before {
+  content: '';
+}
+
+.blockquote-reverse footer:after,
+blockquote.pull-right footer:after,
+.blockquote-reverse small:after,
+blockquote.pull-right small:after,
+.blockquote-reverse .small:after,
+blockquote.pull-right .small:after {
+  content: '\00A0 \2014';
+}
+
+/*** display ***/
+.display-1 {
+  font-size: 6rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.display-2 {
+  font-size: 5.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.display-3 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.display-4 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+/*** heading ***/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.28571429em;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  padding: 0em;
+}
+
+h1,
+.h1 {
+  font-size: 2.5rem;
+}
+
+h2,
+.h2 {
+  font-size: 2rem;
+}
+
+h3,
+.h3 {
+  font-size: 1.75rem;
+}
+
+h4,
+.h4 {
+  font-size: 1.5rem;
+}
+
+h5,
+.h5 {
+  font-size: 1.25rem;
+}
+
+h6,
+.h6 {
+  font-size: 1rem;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small,
+.h1 small,
+.h2 small,
+.h3 small,
+.h4 small,
+.h5 small,
+.h6 small,
+h1 .small,
+h2 .small,
+h3 .small,
+h4 .small,
+h5 .small,
+h6 .small,
+.h1 .small,
+.h2 .small,
+.h3 .small,
+.h4 .small,
+.h5 .small,
+.h6 .small {
+  font-weight: normal;
+  line-height: 1;
+  color: rgba(255,255,255,0.6);
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+  margin-top: 23px;
+  margin-bottom: 11.5px;
+}
+
+h1 small,
+.h1 small,
+h2 small,
+.h2 small,
+h3 small,
+.h3 small,
+h1 .small,
+.h1 .small,
+h2 .small,
+.h2 .small,
+h3 .small,
+.h3 .small {
+  font-size: 65%;
+}
+
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  margin-top: 11.5px;
+  margin-bottom: 11.5px;
+}
+
+h4 small,
+.h4 small,
+h5 small,
+.h5 small,
+h6 small,
+.h6 small,
+h4 .small,
+.h4 .small,
+h5 .small,
+.h5 .small,
+h6 .small,
+.h6 .small {
+  font-size: 75%;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+  margin-top: 0em;
+}
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child {
+  margin-bottom: 0em;
+}
