@@ -7,3 +7,7 @@
 * Add Glyphicons for default web icons
 * Add Button-UI
 * Add Typography-UI
+* Add Link-UI
+* Add Site-UI
+* Add Animate-UI
+* Add Reset-UI
