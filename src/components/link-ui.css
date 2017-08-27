@@ -1,0 +1,30 @@
+/*!
+ * # Awesome UI 1.0.0 - link-ui
+ * https://github.com/kidigo/awesome-ui
+ *    _                                                          _____
+ *   /_\__      _____  ___  ___  _ __ ___   ___           /\ /\  \_   \
+ *  //_\\ \ /\ / / _ \/ __|/ _ \| '_ ` _ \ / _ \  _____  / / \ \  / /\/
+ * /  _  \ V  V /  __/\__ \ (_) | | | | | |  __/ |_____| \ \_/ /\/ /_
+ * \_/ \_/\_/\_/ \___||___/\___/|_| |_| |_|\___|          \___/\____/
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+/*******************************
+        link-ui
+*******************************/
+a {
+  color: #2196f3;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #0a6ebd;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
