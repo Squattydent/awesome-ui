@@ -8,6 +8,7 @@
 * Add Color-UI
 * Add Grid-UI
 * Add Container-UI
+* Add Icon Webfonts
 
 ### 1.0.1 (August 28, 2017)
 
