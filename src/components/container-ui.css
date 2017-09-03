@@ -1,0 +1,122 @@
+/*******************************
+        container
+*******************************/
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,{
+  content: " ";
+  display: table;
+}
+
+.container:after,
+.container-fluid:after,{
+  clear: both;
+}
+
+.container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/*******************************
+        container-fluid
+*******************************/
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/*******************************
+        hero
+*******************************/
+.hero {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #f5f5f5;
+}
+
+.hero h1,
+.hero .h1 {
+  color: #444444;
+}
+
+.hero p {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.hero > hr {
+  border-top-color: #dcdcdc;
+}
+
+.container .hero,
+.container-fluid .hero {
+  border-radius: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.hero .container {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .container .hero,
+  .container-fluid .hero {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .hero h1,
+  .hero .h1 {
+    font-size: 59px;
+  }
+}
+
+/*******************************
+        well 
+*******************************/
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
